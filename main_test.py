@@ -2,7 +2,7 @@ import main
 
 
 def test_while_1(capsys, monkeypatch):
-    inputs = iter([0])
+    inputs = iter(['0'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main.main_while()
     captured = capsys.readouterr()
@@ -10,7 +10,7 @@ def test_while_1(capsys, monkeypatch):
 
 
 def test_while_2(capsys, monkeypatch):
-    inputs = iter([4, -3, 0])
+    inputs = iter(['4', '-3', '0'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main.main_while()
     captured = capsys.readouterr()
@@ -18,7 +18,7 @@ def test_while_2(capsys, monkeypatch):
 
 
 def test_break_1(capsys, monkeypatch):
-    inputs = iter([0])
+    inputs = iter(['0'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main.main_while()
     captured = capsys.readouterr()
@@ -26,7 +26,7 @@ def test_break_1(capsys, monkeypatch):
 
 
 def test_break_2(capsys, monkeypatch):
-    inputs = iter([4, -3, 0])
+    inputs = iter(['4', '-3', '0'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main.main_while()
     captured = capsys.readouterr()
@@ -34,7 +34,7 @@ def test_break_2(capsys, monkeypatch):
 
 
 def test_continue_1(capsys, monkeypatch):
-    inputs = iter([0])
+    inputs = iter(['0'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main.main_while()
     captured = capsys.readouterr()
@@ -42,7 +42,7 @@ def test_continue_1(capsys, monkeypatch):
 
 
 def test_continue_2(capsys, monkeypatch):
-    inputs = iter([4, -3, 0])
+    inputs = iter(['4', '-3', '0'])
     monkeypatch.setattr('builtins.input', lambda _: next(inputs))
     main.main_while()
     captured = capsys.readouterr()
