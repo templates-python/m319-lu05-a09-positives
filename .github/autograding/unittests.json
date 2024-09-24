@@ -1,37 +1,37 @@
 [
   {
-    "name": "impossible",
-    "function": "impossible",
+    "name": "test_while_1",
+    "function": "test_while_1",
     "timeout": 10,
     "points": 1
   },
   {
-    "name": "impossible",
-    "function": "impossible",
+    "name": "test_while_2",
+    "function": "test_while_2",
     "timeout": 10,
     "points": 1
   },
   {
-    "name": "impossible",
-    "function": "impossible",
+    "name": "test_break_1",
+    "function": "test_break_1",
     "timeout": 10,
     "points": 1
   },
   {
-    "name": "impossible",
-    "function": "impossible",
+    "name": "test_break_2",
+    "function": "test_break_2",
     "timeout": 10,
     "points": 1
   },
   {
-    "name": "impossible",
-    "function": "impossible",
+    "name": "test_continue_1",
+    "function": "test_continue_1",
     "timeout": 10,
     "points": 1
   },
   {
-    "name": "impossible",
-    "function": "impossible",
+    "name": "test_continue_2",
+    "function": "test_continue_2",
     "timeout": 10,
     "points": 1
   }
